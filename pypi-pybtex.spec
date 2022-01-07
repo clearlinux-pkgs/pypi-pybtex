@@ -18,14 +18,14 @@ BuildRequires : buildreq-distutils3
 Provides: pybtex
 Provides: pybtex-python
 Provides: pybtex-python3
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pypi(latexcodec)
 BuildRequires : pypi(pyyaml)
 BuildRequires : pypi(six)
 BuildRequires : pytest
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 ==================================================
