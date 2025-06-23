@@ -1,5 +1,5 @@
 PKG_NAME := pypi-pybtex
-URL = https://files.pythonhosted.org/packages/46/9b/fd39836a6397fb363446d83075a7b9c2cc562f4c449292e039ed36084376/pybtex-0.24.0.tar.gz
+URL = https://files.pythonhosted.org/packages/05/9b/1c5b913cb9121aac0a2f2990ee002b77efc70d969d5d5b179e19564389fe/pybtex-0.25.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
