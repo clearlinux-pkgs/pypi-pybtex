@@ -6,10 +6,10 @@
 # autospec commit: 65cf152
 #
 Name     : pypi-pybtex
-Version  : 0.25.0
-Release  : 52
-URL      : https://files.pythonhosted.org/packages/05/9b/1c5b913cb9121aac0a2f2990ee002b77efc70d969d5d5b179e19564389fe/pybtex-0.25.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/05/9b/1c5b913cb9121aac0a2f2990ee002b77efc70d969d5d5b179e19564389fe/pybtex-0.25.0.tar.gz
+Version  : 0.25.1
+Release  : 53
+URL      : https://files.pythonhosted.org/packages/5f/bc/c2be05ca72f8c103670e983df8be26d1e288bc6556f487fa8cccaa27779f/pybtex-0.25.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/5f/bc/c2be05ca72f8c103670e983df8be26d1e288bc6556f487fa8cccaa27779f/pybtex-0.25.1.tar.gz
 Summary  : A BibTeX-compatible bibliography processor in Python
 Group    : Development/Tools
 License  : MIT
@@ -72,10 +72,10 @@ python3 components for the pypi-pybtex package.
 
 
 %prep
-%setup -q -n pybtex-0.25.0
-cd %{_builddir}/pybtex-0.25.0
+%setup -q -n pybtex-0.25.1
+cd %{_builddir}/pybtex-0.25.1
 pushd ..
-cp -a pybtex-0.25.0 buildavx2
+cp -a pybtex-0.25.1 buildavx2
 popd
 
 %build
@@ -83,7 +83,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1750688033
+export SOURCE_DATE_EPOCH=1750960014
 export GCC_IGNORE_WERROR=1
 CLEAR_INTERMEDIATE_CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 CLEAR_INTERMEDIATE_FCFLAGS="$CLEAR_INTERMEDIATE_FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
